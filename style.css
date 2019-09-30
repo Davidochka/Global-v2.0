@@ -7,6 +7,7 @@ header{
 	background-color: rgba(0, 0, 0, 0);
 	width: 100%;
 	height: 40px;
+	position: fixed;
 }
 .logo{
 	color: white;
@@ -21,4 +22,18 @@ header{
 }
 .logotext{
 	margin-left: 3%;
+}
+.menu{
+	margin-top: -22px;
+}
+.menuline{
+	width: 1.7%;
+	height: 1px;
+	margin-top: -10px;
+	background-color: white;
+	margin-left: 93%;
+}
+.line{
+	width: 1.2%;
+	margin-left: 93.2%;/* спорный момент */
 }
