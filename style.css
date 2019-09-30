@@ -17,7 +17,7 @@ header{
 	margin-top: 20px;
 }
 .logoimg{
-	position: absolute;
+	/* position: absolute; */
 	margin-top: -30px;
 }
 .logotext{
@@ -27,13 +27,17 @@ header{
 	margin-top: -22px;
 }
 .menuline{
-	width: 1.7%;
+	width: 23px;
 	height: 1px;
-	margin-top: -10px;
+	margin-top: -11px;
 	background-color: white;
 	margin-left: 93%;
 }
 .line{
-	width: 1.2%;
-	margin-left: 93.2%;/* спорный момент */
+	width: 1%;
+	margin-left: 93.3%;/* спорный момент */
+}
+body header div.logo a{
+	color: white;
+	text-decoration: none;/* спорный момент */
 }
