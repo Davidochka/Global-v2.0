@@ -3,10 +3,32 @@
 }
 .line{
 	width: 1.3%;
-	margin-left: 93.3%;/* спорный момент */
+	margin-left: 73.2%;/* спорный момент */
+}
+.menuline{
+	margin-left: 73%;
 }
 .home{
 	position: absolute;
-	margin-left: 19.8%;
+	margin-left: 3%;
 	margin-top: 72px;
+}
+.visual{
+	margin-left: 20%;
+}
+.first_hr{
+	position: absolute;
+	top: 450px;
+	left: -236px;
+	right: 0;
+	height: 2px;
+	width: 78%;
+	background-color: #282828;
+	z-index: 2;
+}
+.elite{
+	margin-left: 5%;
+}
+.logo{
+	margin-left: 3%;
 }

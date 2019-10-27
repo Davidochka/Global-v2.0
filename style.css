@@ -39,6 +39,9 @@ header{
 }
 .line{
 	width: 1%;
+	height: 1px;
+	margin-top: -11px;
+	background-color: white;
 	margin-left: 93.3%;/* спорный момент */
 }
 body header div.logo a{
@@ -47,14 +50,14 @@ body header div.logo a{
 }
 .home{
 	position: absolute;
-	margin-left: 19.8%;
+	margin-left: 14.8%;
 	margin-top: 52px;
 }
 /* .hometext{
 	margin-top: 63px;
 } */
 body .home .hometext h1{
-	width: 30.8%;
+	width: 60.8%;
 	font-weight: bolder;
 	font-size: 68px;
 	line-height: 1;
@@ -73,7 +76,6 @@ body .home .hometext h1{
 	color: #fff;
 	margin-left: 2%;
 	z-index: 1;
-	/* margin-top: 10px; - почему не работает?*/ 
 }
 .btn-background{
 	position: absolute;
@@ -90,14 +92,14 @@ body .home .hometext h1{
 body .home button svg {
 	position: relative;
 	left: 5px;
-	width: 15px;
+	width: 20px;
 	fill: #fff;
 }
 .first_hr{
 	/* content: ""; */
 	position: absolute;
 	top: 450px;
-	left: -132px;
+	left: -125px;
 	right: 0;
 	height: 2px;
 	width: 87.8%;
@@ -143,4 +145,9 @@ body .home button svg {
 }
 .elite:hover{
 	color: #fff;
+}
+@media(min-width: 1380px) {
+	.home{
+		margin-left: 5%;
+	}
 }

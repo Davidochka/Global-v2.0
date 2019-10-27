@@ -1,8 +1,43 @@
 .logotext{
 	margin-left: 4%;
 }
+.line{
+	width: 1.3%;
+	margin-left: 73.2%;/* спорный момент */
+}
+.menuline{
+	margin-left: 73%;
+}
 .home{
 	position: absolute;
 	margin-left: 19.8%;
 	margin-top: 72px;
+}
+.visual{
+	visibility: hidden;
+}
+.first_hr{
+	visibility: hidden;
+}
+.second_hr{
+	visibility: hidden;
+}
+.intro--options{
+	visibility: hidden;
+}
+.hometext{
+	display: flex;
+	word-wrap: none;
+}
+.cta{
+	margin-top: 50px;
+	margin-left: 3%;
+	font-size: 18px;
+}
+.btn-background{
+	width: 18%;
+	left: 10px;
+}
+body .home .hometext h1 {
+	font-size: 78px;
 }

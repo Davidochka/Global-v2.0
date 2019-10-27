@@ -10,3 +10,8 @@
 	margin-left: 19.8%;
 	margin-top: 72px;
 }
+body{
+	visibility: hidden;
+	/* content: "Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.";
+	color: white; */
+}
